@@ -8,7 +8,7 @@ let lavel = 0;
 
 let h2 = document.querySelector("h2");
 
-document.addEventListener("touchstart", function() {
+document.addEventListener("keypress", function() {
      if (start == false) {
           // console.log("Game started")
           start = true;
